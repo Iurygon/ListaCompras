@@ -41,7 +41,7 @@ function criaElementoLista(lista,textoElemento){
     label.classList.add('itemDesc')
     label.textContent = `${textoElemento}`
 
-    li.appendChild(checkbox)
     li.appendChild(label)
+    li.appendChild(checkbox)
     lista.appendChild(li)
 }
